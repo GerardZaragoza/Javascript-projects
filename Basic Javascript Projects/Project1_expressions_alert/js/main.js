@@ -1,5 +1,4 @@
 window.alert("Hello World")
-var A = "this is a string"
-document.write(A);
 
-document.write("Canada!\ the most polite country in the world!");
+var Family = "The Zaragoza's", Dad = "Gerard" , Mom = "Kathlene", FirstSon = "Gerard Xamuel", SecondSon = "Gerard Luka", FirstDaughter = "Kathlene Xiane", SecondDaughter = "Kathlene Xamantha";
+document.write (SecondSon);
