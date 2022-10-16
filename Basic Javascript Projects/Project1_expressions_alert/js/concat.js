@@ -1,2 +1,2 @@
-var b = "concat" + "string"
+var b = "Hello" + "world";
 document.write (b);
