@@ -15,3 +15,9 @@ document.write (SecondSon); //this displays the chosen variable among the multip
 document.write ("<br />")// page break
 
 document.write (3+3); // mathematical expression
+
+document.write ("<br />")
+
+var sent1 = "This is the beginning of the string, "
+var sent2 = "this is the end of the string"
+document.write (sent1 + sent2);
