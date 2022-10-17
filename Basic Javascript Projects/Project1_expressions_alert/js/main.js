@@ -3,8 +3,9 @@ var A = "string assignment" //this creates a pop window that says "Hello World"
 window.alert(A) // this displays the message written in the variable A
 
 
-var b = "Hello" + "world"; // concatenated 
-document.write (b); // this displays the message written in the variable b
+var a = "Hello," //variable a to be concatenated
+var b = "world" //variable b to be concatenated
+document.write (a+b); // this displays the concatenated message
 
 document.write ("<br />") // this creates a page break in the script
 
@@ -16,8 +17,8 @@ document.write ("<br />")// page break
 
 document.write (3+3); // mathematical expression
 
-document.write ("<br />")
+document.write ("<br />")//page break
 
-var sent1 = "This is the beginning of the string, "
-var sent2 = "this is the end of the string"
-document.write (sent1 + sent2);
+var sent1 = "This is the beginning of the string," //variable 1 to be stringed
+var sent2 = "this is the end of the string" // variable 2 to be stringed
+document.write (sent1 + sent2); // concat var sent1 and var sent2
