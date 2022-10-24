@@ -1,4 +1,7 @@
 function addition_Function () {
-    var addition = 2 + 2;
-    document.getElementById("Math").innerHTML = "2 + 2 =" + addition;
+    let x = 5;
+    let y = 7;
+    let z = x + y
+    document.getElementById("ragnarok").innerHTML = "5 + 7 ="  +addition;
+
 }
