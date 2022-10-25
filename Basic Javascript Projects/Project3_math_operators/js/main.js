@@ -5,5 +5,10 @@ function addition_Function () {
 
 function subtraction_Function () {
     var subtraction = 6 -3;
-    document.getElementById("p2mo").innerHTML = "6 -3 =" +subtraction;
+    document.getElementById("p2mo").innerHTML = "6 -3 = " + subtraction;
+}
+
+function multiplication_Function () {
+    var multiplication = 5 * 8;
+    document.getElementById("p3mo").innerHTML = "5 * 8 = " + multiplication;
 }
