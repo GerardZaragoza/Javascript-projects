@@ -4,11 +4,11 @@ function addition_Function () {
 }
 
 function subtraction_Function () {
-    var subtraction = 6 -3;
+    var subtraction = 6 - 3;
     document.getElementById("p2mo").innerHTML = "6 -3 = " + subtraction;
 }
 
 function multiplication_Function () {
     var simple_math = 5 * 8;
-    document.getElementById("p3mo").innerHTML = "5 * 8 = " + simple_math;
+    document.getElementById("p3mo").innerHTML = "5 x 8 = " + simple_math;
 }
