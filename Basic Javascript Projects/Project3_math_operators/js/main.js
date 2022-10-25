@@ -1,7 +1,9 @@
 function addition_Function () {
-    let x = 5;
-    let y = 7;
-    let z = x + y
-    document.getElementById("ragnarok").innerHTML = "5 + 7 ="  +addition;
+    var addition = 5 + 7;
+    document.getElementById("p1mo").innerHTML = "5 + 7 = " + addition;
+}
 
+function subtraction_Function () {
+    var subtraction = 6 -3;
+    document.getElementById("p2mo").innerHTML = "6 -3 =" +subtraction;
 }
