@@ -9,6 +9,6 @@ function subtraction_Function () {
 }
 
 function multiplication_Function () {
-    var multiplication = 5 * 8;
-    document.getElementById("p3mo").innerHTML = "5 * 8 = " + multiplication;
+    var simple_math = 5 * 8;
+    document.getElementById("p3mo").innerHTML = "5 * 8 = " + simple_math;
 }
