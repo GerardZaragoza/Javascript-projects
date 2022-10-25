@@ -1,14 +1,14 @@
 function addition_Function () {
     var addition = 5 + 7;
-    document.getElementById("p1mo").innerHTML = "5 + 7 = " + addition;
+    document.getElementById("p1mo").innerHTML =  + addition;
 }
 
 function subtraction_Function () {
     var subtraction = 6 - 3;
-    document.getElementById("p2mo").innerHTML = "6 -3 = " + subtraction;
+    document.getElementById("p2mo").innerHTML =  + subtraction;
 }
 
-function multiplication_Function () {
+function multiplication() {
     var simple_math = 5 * 8;
-    document.getElementById("p3mo").innerHTML = "5 x 8 = " + simple_math;
+    document.getElementById("p3mo").innerHTML =  + simple_math;
 }
