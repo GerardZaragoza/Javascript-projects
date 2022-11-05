@@ -41,3 +41,9 @@ function count_Function () { // this shows the function that we want to happen
         return Starting_point;
     }
 }
+
+function greeting() {
+    var farewell= "arrivederci";
+    farewell= farewell + "stupid";
+    document.write(farewell);
+}
