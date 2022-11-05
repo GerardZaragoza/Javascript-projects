@@ -22,7 +22,7 @@ function get_date(){//this function will get the local time on your computer
 
 }
 
-function Age_function () {
+function Age_function () { // this is an assignment
     Age = document.getElementById("Age").value;
     if (Age >= 21) {
         Drink = "You are old enough to drink Alcoholic drinks. A 6-pack? or A bottle?";
@@ -33,7 +33,7 @@ function Age_function () {
     document.getElementById("How_old_are_you?").innerHTML= Drink;
 }
 
-function Time_function() {
+function Time_function() {// this is a task that told me to rewrite the codes for the else if assignment
     var Time = new Date().getHours();
     var Reply;
     if(Time <12 == Time> 0) {
