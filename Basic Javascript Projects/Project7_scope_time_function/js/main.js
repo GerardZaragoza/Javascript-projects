@@ -15,8 +15,8 @@ function add_numbers_6(){ // this function will display an error on the console 
 }
 add_numbers_6();
 
-function get_date(){
-    if (new Date().getHours() >9){
+function get_date(){//this function will get the local time on your computer
+    if (new Date().getHours() >9){// this will display the message wake up if the time is greater than 9 am
         document.getElementById("hour").innerHTML= "wake up!"
     }
 
@@ -32,3 +32,18 @@ function Age_function () {
     }
     document.getElementById("How_old_are_you?").innerHTML= Drink;
 }
+
+function Time_function() {
+    var Time = new Date().getHours();
+    var Reply;
+    if(Time <12 == Time> 0) {
+        Reply = "it is morning time!";
+    }
+    else if (Time >= 12 == Time < 18) {
+            Reply = "it is afternoon";
+        }
+    else {
+            Reply = "it is evening time"
+        }
+        document.getElementById("Time_of_day").innerHTML = Reply;
+    }
