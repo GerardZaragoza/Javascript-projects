@@ -1,7 +1,7 @@
 let slideIndex = 0;
 showSlides();
 
-function showSlides() {
+function showSlides() {// this is for the slideshow function
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
@@ -15,5 +15,5 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); 
+  setTimeout(showSlides, 2000); //sets the amount of time for the slide before it changes
 }

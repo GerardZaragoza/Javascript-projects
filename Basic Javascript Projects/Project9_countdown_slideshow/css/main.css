@@ -1,4 +1,4 @@
-p {
+p {  /* this is the design for all the elements of <p>*/
     font-family: sans-serif;
     text-align: center; 
     letter-spacing: 1px; 
@@ -7,18 +7,14 @@ p {
     padding-right: 20px; 
     color: rgb(8, 1, 1);
 }
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: left;}
 
-.slideshow-container {
+.slideshow-container { /* this one is for the container of the images fro the slideshow*/
   max-width: 1800px;
   position: left;
   margin: auto;
   padding-top: 1%;
 }
-.dot {
+.dot { /* this is the for the small dots that indicate what image are you in*/
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -28,17 +24,17 @@ img {vertical-align: left;}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+.active, .dot:hover { /* hover effect*/
   background-color: #bb1616;
 }
-.fade {
+.fade {/* fade effect*/
   animation-name: fade;
   animation-duration: 1.5s;
 }
-@keyframes fade {
+@keyframes fade {/* this is for the animation*/
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 300px) { /*this is to apply different styles for different medias that is used to view the page*/
   .prev, .next,.text {font-size: 11px}
 }
